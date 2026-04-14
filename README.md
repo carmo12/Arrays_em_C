@@ -1,7 +1,7 @@
-📌 Projeto em C – Manipulação de Arrays
-📖 Descrição
+#📌 Projeto em C – Manipulação de Arrays
+##📖 Descrição
 
-Este projeto consiste em um programa desenvolvido em linguagem C que realiza a leitura de 10 números inteiros, armazena os valores em um array e aplica regras de transformação para gerar um segundo array. Ao final, os resultados são exibidos no console.
+###Este projeto consiste em um programa desenvolvido em linguagem C que realiza a leitura de 10 números inteiros, armazena os valores em um array e aplica regras de transformação para gerar um segundo array. Ao final, os resultados são exibidos no console.
 
 ⚙️ Funcionamento do Programa
 
