@@ -1,39 +1,60 @@
-#📌 Projeto em C – Manipulação de Arrays
-##📖 Descrição
+#  Arrays na linguagem C
 
-###Este projeto consiste em um programa desenvolvido em linguagem C que realiza a leitura de 10 números inteiros, armazena os valores em um array e aplica regras de transformação para gerar um segundo array. Ao final, os resultados são exibidos no console.
+<p align="center">
+  <img src="docs/capa.jpg" width="600">
+</p>
 
-⚙️ Funcionamento do Programa
+---
 
-O programa segue as seguintes etapas:
+## 📌 Sobre o projeto
 
-Solicita ao usuário a entrada de 10 números inteiros
-Armazena os valores no array A
-Processa os dados criando um novo array B com base em regras específicas
-Exibe os valores do array resultante
+📖 Descrição
 
-🔢 Regras de Processamento
+Este projeto consiste em um programa desenvolvido em linguagem C que realiza a leitura de 10 números inteiros, armazena os valores em um array e aplica regras de transformação para gerar um segundo array. Ao final, os resultados são exibidos no console.
 
-Durante a criação do array B, o programa aplica as seguintes condições:
+---
 
-Índices pares (0, 2, 4...) → multiplica o valor por 5
-Índices ímpares (1, 3, 5...) → soma 5 ao valor
+## 🚀 Tecnologias utilizadas
 
-🧠 Lógica Implementada
+- C
+- W3school 
 
-O projeto utiliza:
+---
 
-Estruturas de repetição (for) para percorrer os arrays
-Estruturas condicionais (if/else) para aplicar regras de negócio
-Funções para organização e reutilização do código
-Manipulação de arrays (vetores)
+## ⚙️ Como funciona
 
-🛠️ Função Auxiliar
-exiberArrayInteiro
+### 🔹 1. Entrada de dados
 
-Responsável por percorrer um array e imprimir seus valores no console.
+O usuário informa 10 números inteiros via teclado.
+Esses valores são armazenados no array 
 
-Parâmetros:
+### 🔹 2. Processamento dos dados
 
-numeros[]: array de inteiros
-length: tamanho do array
+O programa percorre o array A utilizando uma estrutura de repetição (for) e cria um novo array B, aplicando regras condicionais:
+
+Se o índice for par, o valor é multiplicado por 5
+Se o índice for ímpar, o valor recebe a soma de 5  
+
+### 🔹 3. Saída dos resultados
+
+Os valores processados no array B são exibidos no console por meio da função exiberArrayInteiro, que percorre o array e imprime cada elemento
+---
+
+
+---
+
+## 📄 Status
+
+✅ Projeto funcional  
+🎓 Projeto acadêmico concluído
+
+---
+
+## 👨‍💻 Autor
+
+**Joao Carmo**
+
+- GitHub: https://github.com/carmo12 
+- LinkedIn: www.linkedin.com/in/joao-carmo1
+
+
